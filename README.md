@@ -9,6 +9,6 @@ how to  check?
  
  step4: npm run dev 
  
- step5: localhost:8083/module/index.html# vue multi page 
+ step5: localhost:8083/module/index.html
  
 # vue multi page
