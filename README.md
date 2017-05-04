@@ -5,4 +5,5 @@ how to  check?
  step2: (project) cnpm install --save-dev node-sass
  step3: npm install
  step4: npm run dev
- step5: localhost:8083/module/index.html
+ step5: localhost:8083/module/index.html# vue multi page
+# vue multi page
