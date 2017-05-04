@@ -1,0 +1,143 @@
+
+@font-face {font-family: "iconfont";
+  src: url('./../font/iconfont.eot?t=1488767642496'); /* IE9*/
+  src: url('./../font/iconfont.eot?t=1488767642496#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./../font/iconfont.woff?t=1488767642496') format('woff'), /* chrome, firefox */
+  url('./../font/iconfont.ttf?t=1488767642496') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./../font/iconfont.svg?t=1488767642496#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before { content: "\f000b"; }
+
+.icon-heart1:before { content: "\e7ac"; }
+
+.icon-iconfont10:before { content: "\e615"; }
+
+.icon-daohang:before { content: "\e65b"; }
+
+.icon-youxiang:before { content: "\e62f"; }
+
+.icon-gengduo:before { content: "\f0343"; }
+
+
+/* 公用class */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 14px;
+	font-family: 'Microsoft YaHei';
+}
+
+input{
+	font-family: 'Microsoft YaHei';
+}
+
+a{
+	text-decoration: none;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+
+
+
+/* 全局字体 */
+.font-small-6b{
+	font-size: 12px;
+	color: #6b6b6b;
+}
+
+.font-middle-6b{
+	font-size: 14px;
+	color: #6b6b6b;
+}
+
+.font-big-6b{
+	font-size: 16px;
+	color: #6b6b6b;
+}
+
+
+/* float */
+.float-right{
+	float: right;
+}
+
+.float-left{
+	float: left;
+}
+
+/* over-flow */
+.over-flow{
+	overflow: hidden;
+}
+
+
+/* margin */
+.margin-right-10{
+	margin-right: 10px;
+}
+
+.margin-top-10{
+	margin-top: 10px;
+}
+
+.margin-left-10{
+	margin-left: 10px;
+}
+
+.margin-right-5{
+	margin-right: 5px;
+}
+
+.margin-top-5{
+	margin-top: 5px;
+}
+
+.margin-left-5{
+	margin-left: 5px;
+}
+
+/* color */
+.main-color{
+	color: #df3526;
+}
+
+/* 手机、家电选中*/
+.goods-top-active{
+	border-left: 4px solid #df3526 !important;
+	color: #df3526 !important;
+}
+
+
+/* 固定导航 */
+.fixed-nav-active{
+	background: #df3526 !important;
+	color: #fff !important;
+}
+
+
+/* 控制显示与隐藏 */
+.display-none{
+	display: none;
+}
+
+.display-block{
+	display: block;
+}
+
